@@ -23,8 +23,20 @@ options.addEventListener('change', function() {
             markers.push(marker);
         }
     });
-    console.log(filters);
-    return filters;
+    let container = document.getElementById("container");
+    while (container.firstChild) {
+        container.removeChild(container.firstChild);
+    }
+    filters.forEach(restaurant => {
+        let div = document.createElement('div');
+        let span = document.createElement('span');
+        let p = document.createElement('p');
+        span.innerHTML = restaurant.name;
+        p.innerHTML = restaurant.type;
+        div.appendChild(span);
+        div.appendChild(p);
+        container.appendChild(div);
+    });
 })
 
 function initMap() {
