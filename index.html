@@ -6,26 +6,22 @@
     <title>Food Map</Map></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnRzkrdbziCOhlXcdXkW3MCAypmPfdsRw&callback=initMap" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
 </head>
 <body>
-    <nav>
-        <div class= "header">
-            <h1>Food MAP</h1>
-        </div>
-        <div id="map"></div>
-        <section>
-            <div class="container">
-                <select id="options">
-                    <option selected disabled>¿Qué tipo de comida buscas?</option>
-                    <option value="criolla">Criolla</option>
-                    <option value="italiana">Italiana</option>
-                    <option value="japonesa">Japonesa</option>
-                    <option value="marina">Marina</option>
-                </select> 
-            </div>
-        </section>
-    </nav>
+    <div class= "header">
+        <h1>Food MAP</h1>
+    </div>
+    <div class="container">
+        <select id="options">
+            <option selected disabled>¿Qué tipo de comida buscas?</option>
+            <option value="criolla">Criolla</option>
+            <option value="italiana">Italiana</option>
+            <option value="japonesa">Japonesa</option>
+            <option value="marina">Marina</option>
+        </select>
+    </div>
+    <div id="map"></div>
     <script src="data.js"></script>
     <script src="app.js"></script>
 </body>
