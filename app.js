@@ -29,13 +29,19 @@ options.addEventListener('change', function() {
     }
     filters.forEach(restaurant => {
         let div = document.createElement('div');
+        div.className = 'result';
         let span = document.createElement('span');
         let p = document.createElement('p');
-        span.innerHTML = restaurant.name;
-        p.innerHTML = restaurant.type;
+        span.innerHTML = restaurant.name.bold();
+        let image = document.createElement('img');
+        image.src = restaurant.image;
+        image.className= 'foto';
         div.appendChild(span);
         div.appendChild(p);
+        div.appendChild(image);
         container.appendChild(div);
+        let a = document.createElement('a');
+        a.href = 
     });
 })
 
