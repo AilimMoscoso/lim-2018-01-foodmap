@@ -20,7 +20,7 @@ html, body {
     background:  rgb(224, 71, 147);
     font-family: calibri;
     color: #fff;
-    text-align: center;
+    /* text-align: center; */
 }
 .custom-select{
     position: relative;
@@ -33,14 +33,10 @@ html, body {
     margin-left: 30%;
     /* float:right; */
 }
-.foodmap{
-    width: 150px;
+/* .foodmap{
+    /* float: left; */
     
-    margin-right: 33%;
-    /* font-size: 10vw; */
- 
-    
-}
+} */
 
 .result{
     
@@ -57,7 +53,7 @@ html, body {
 }
 .restaurant{
     cursor: pointer;
-    margin-left: 146px;
+    margin-left: 30%;
     color: gray;
     font-family: calibri;
     font-size: 3vw;
@@ -75,11 +71,12 @@ html, body {
 .style-modal{
     border: 2px solid #fff; 
     border-radius: 2%;
-    position: fixed; /* Stay in place */
+    /* Stay in place */
     z-index: 1; /* Sit on top */
     left: 0;
     /* top: 0; */
     overflow: auto; /* Enable scroll if needed */
     background-color:#ffff; /* Fallback color */
     opacity: 0.65;
+
 }
