@@ -15,30 +15,71 @@ html, body {
      /* background: gray; */
     /* margin-left: 40%; */
     padding-left: 40%;
-    border: 2px solid rgb(71, 201, 224);
-    background:  rgb(71, 201, 224);
+    width: 100%;
+    border: 2px solid rgb(224, 71, 147);
+    background:  rgb(224, 71, 147);
     font-family: calibri;
+    color: #fff;
+    text-align: center;
 }
 .custom-select{
     position: relative;
     border-color: transparent transparent #fff transparent;
     top: 7px;
     font-size: 20px;
-    width: 310px;
+    width: 33%;
     font-family: calibri;
-    background-color: rgb(227, 236, 240);
-    margin-left: 35%;
+    background-color: rgb(235, 205, 219);
+    margin-left: 30%;
     /* float:right; */
 }
+.foodmap{
+    width: 150px;
+    
+    margin-right: 33%;
+    /* font-size: 10vw; */
+ 
+    
+}
+
 .result{
-    border: 2px solid blue;
-    width: 25%;
-    height: 10%;
+    
+    border-radius: 2%;
+    /* width: 25%; */
+    /* height: 200px; */
     font-family: calibri;
     font-size: 25px;
-    margin: 3%;
+    margin: 3% 25% 3% 25%;
+    box-shadow: 5px 10px 18px #888888;   
+}
+.result:hover{
+    background-color: rgb(255, 138, 200);
+}
+.restaurant{
+    cursor: pointer;
+    margin-left: 146px;
+    color: gray;
+    font-family: calibri;
+    font-size: 3vw;
 }
 .foto{
     width: 100%;
     height: 100%;
+    margin: 2px 0px 0px 0px;
+}
+.infoModal{
+    font-family: calibri;
+    color: #000000;
+    font-weight: bold;
+}
+.style-modal{
+    border: 2px solid #fff; 
+    border-radius: 2%;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    /* top: 0; */
+    overflow: auto; /* Enable scroll if needed */
+    background-color:#ffff; /* Fallback color */
+    opacity: 0.65;
 }

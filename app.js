@@ -44,15 +44,19 @@ options.addEventListener('change', function() {
 });
 
 function load(filters) {
-    restaurants = document.getElementsByClassName('restaurant');
+    let restaurants = document.getElementsByClassName('restaurant');
     let dialog = document.getElementById('favDialog');
     for (let i = 0; i < restaurants.length; i++) {
         let restaurant = restaurants[i];
         restaurant.addEventListener('click', function() {
             dialog.removeChild(dialog.firstChild);
             let p = document.createElement('p');
-            p.innerHTML = filters[i].name + '<br/>';
-            p.innerHTML += filters[i].address;
+            p.className = 'infoModal';
+            p.innerHTML = filters[i].name.bold().toUpperCase() + '<br/>'+ '<br/>';
+            p.innerHTML += 'Dirección: '.italics() + filters[i].adress + '<br/>';
+            p.innerHTML += 'Teléfono: '.italics() + filters[i].phone + '<br/>';
+            p.innerHTML += 'Web: '.italics() + filters[i].web + '<br/>'+ '<br/>';
+            p.innerHTML += '>esc';
             dialog.appendChild(p);
             dialog.showModal();
         });

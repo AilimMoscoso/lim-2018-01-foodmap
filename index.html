@@ -10,7 +10,9 @@
 </head>
 <body>
     <div class= "header">
-        <h1>Food MAP</h1>
+        <div class= foodmap>
+            <h1>Food MAP</h1>
+        </div>    
     </div>
     <div>
         <select id="options" class="custom-select">
@@ -21,12 +23,12 @@
             <option value="marina">Marina</option>
         </select>
     </div>
-    <dialog id="favDialog">
+    <dialog id="favDialog" class="style-modal">
     </dialog>
     <div id="map"></div>
     <div id="container"></div>
-
     <script src="data.js"></script>
     <script src="app.js"></script>
+    
 </body>
 </html>
