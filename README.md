@@ -1,27 +1,23 @@
-#  F O O D M A P
+#  F O O D M A P 🍽
 
-Crea una web-app que a través de un input pueda filtrar los restaurantes
-que se encuentran cerca de ti *(Tú decides la estructura que tendrán tus datos,
-puedes crear una lista de restaurantes en un arreglo, en un objeto, consumir una API, etc. Lo importante es que el contenido debe ser dinámico y no estático y el diseño es totalmente libre)*.
+*Web-app que a través de un input filtra los restaurantes que están alrededor, brindando información importante acerca de ellos con el objetivo de encontrar el mejor lugar (cercano) para comer.*
 
-#### Flujo de la aplicación.
+<p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-01-foodmap/img/vista1.png" alt="vista1" border="0"></p>
 
-Vista splash con duración de 2 segundos que redirecciona a tu vista
-principal.
-![Splash](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/splash.jpg?raw=true)
+#### Flujo de la aplicación
 
-En la vista principal se muestran todos los restaurantes "cerca de ti" junto
-con el input para filtrar tu elección *(Los criterios de filtrado son decisión
-tuya, puede ser por tipo de comida, costos, orden alfabético, etc.)*.
-![vista principal](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/2.jpg?raw=true)
+*En la vista principal se muestran un mapa y un select para filtrar según tipo de comida: Criolla, Italiana, Japonesa o Marina.*
 
-Ya que se hizo la elección del filtro deben mostrarse únicamente aquellos
-restaurantes que cumplan con la condición.
-![vista filtrado](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/3.jpg?raw=true)
+<p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-01-foodmap/img/vista2modal.png" alt="vista2modal" border="0"></p>
 
-Al seleccionar alguno de los restaurantes, deberá mostrarse la información de
-este a través de un modal.
-![modal imagen](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/5.jpg?raw=true)
+*Una vez que se hace la elección del filtro se muestran aquellos restaurantes que cumplan con la condición y* ***el mapa interactúa cambiando de puntos geográficos.***
 
-Una vez cerrado el modal debe volver a la vista principal.
-![ultima vista](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/6.jpg?raw=true)
+*Al seleccionar alguno de los restaurantes, se muestra la información a través de un modal.*
+
+VISTA RESPONSIVE
+
+<p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-01-foodmap/img/responsive.png" alt="responsive" border="0"></p>
+
+
+
+
