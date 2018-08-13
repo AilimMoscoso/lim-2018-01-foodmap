@@ -12,7 +12,7 @@
 
 *Una vez que se hace la elección del filtro se muestran aquellos restaurantes que cumplan con la condición y* ***el mapa interactúa cambiando de puntos geográficos.***
 
-*Al seleccionar alguno de los restaurantes, se muestra la información a través de un modal.*
+*Al seleccionar alguno de los restaurantes, se muestra la información a través de un modal. Finalmente regresa a la vista principal dando click a la tecla Esc.*
 
 VISTA RESPONSIVE
 
